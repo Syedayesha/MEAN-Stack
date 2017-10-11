@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <script src="angular.min.js"></script>
+ <script src="app.js"></script>
+ </head>
+ <body ng-app="myApp">
+ <div ng-controller="myCtrl">
+ <form>
+    Author:
+    <input type="text" ng-model="data.author">
+    <br>
+    <br> Title:
+    <input type="text" ng-model="data.title">
+    <br>
+    <br> Body:
+    <input type="author" ng-model="data.body">
+    <br>
+    <br>
+    <input type="submit" value="Submit" ng-click="submit()">
+  </form>
+  </div>
+  </body>
+  </html>
